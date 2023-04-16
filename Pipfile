@@ -13,6 +13,9 @@ pandas = "*"
 numpy = "*"
 scipy = "*"
 django-filter = "*"
+joblib = "*"
+seaborn = "*"
+scikit-learn = "*"
 
 [dev-packages]
 
