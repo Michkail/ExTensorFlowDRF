@@ -17,6 +17,7 @@ scikit-learn = "*"
 pymongo = {version = "==3.6", extras = ["srv"]}
 djongo = "*"
 dnspython = "*"
+opencv-python = "*"
 
 [dev-packages]
 
