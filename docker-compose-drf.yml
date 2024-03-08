@@ -2,7 +2,7 @@ services:
   web:
     image: ex-drf:1.0.0
     container_name: ex-drf
-    command: ["pipenv", "run", "python", "manage.py", "collectstatic", "--noinput", "&&", "pipenv", "run", "python", "manage.py", "runserver", "0.0.0.0:8002"]
+    command: bash -c "pipenv run python manage.py collectstatic --noinput && pipenv run python manage.py runserver 0.0.0.0:8002"
     volumes:
       - .:/app
       - ./staticfiles:/app/staticfiles
