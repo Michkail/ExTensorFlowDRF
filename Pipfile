@@ -14,10 +14,10 @@ django-filter = "*"
 joblib = "*"
 seaborn = "*"
 scikit-learn = "*"
-pymongo = {version = "==3.6", extras = ["srv"]}
 djongo = "*"
 dnspython = "*"
 opencv-python = "*"
+pymongo = {version = "==3.12.1", extras = ["srv"]}
 
 [dev-packages]
 
