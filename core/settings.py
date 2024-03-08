@@ -76,7 +76,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'core.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
@@ -86,7 +85,7 @@ DATABASES = {
         'NAME': 'TryDRFTensor',
         'ENFORCE_SCHEMA': False,
         'CLIENT': {
-            'host': 'mongodb+srv://jkfp:221997@jane.jxr0n15.mongodb.net/?retryWrites=true&w=majority'
+            'host': 'mongodb+srv://jkfp:221997@jane.jxr0n15.mongodb.net/?retryWrites=true&w=majority&appName=Jane'
         }
     }
 }
