@@ -8,6 +8,8 @@ WORKDIR /app
 
 COPY Pipfile /app/
 
+RUN apt-get update && apt-get install ffmpeg libsm6 libxext6  -y
+
 RUN pip install pipenv && pipenv --python 3.9.16
 
 RUN pipenv install
