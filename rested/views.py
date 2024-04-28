@@ -18,7 +18,8 @@ class WeightPrediction(APIView):
         elif gender == 'Female':
             gender = 1
 
-        # match gender:     # Python 3.10 or Above
+        # Python 3.10 or Above
+        # match gender:
         #     case 'Male':
         #         gender = 0
         #
