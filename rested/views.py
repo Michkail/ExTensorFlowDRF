@@ -8,14 +8,14 @@ from rest_framework.response import Response
 
 class WeightPrediction(APIView):
     """
-    We use Weight Prediction for example implement APIs using Django REST Framework
+    We use Weight Prediction for example implement APIs using Django REST Framework.
+    For the usage, you can try body payload like this:
+    {
+        "Height": 172,
+        "Gender: "Female"
+    }
     """
     def post(self, request):
-        """
-        Usage: {"Height": 172, "Gender: "Female"}
-        :param request:
-        :return:
-        """
         data = request.data
         height = data['Height']
         gender = data['Gender']
